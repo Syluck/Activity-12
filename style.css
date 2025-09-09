@@ -1,0 +1,46 @@
+.Cats {
+    float: inline-start;
+    width: 500px;
+    height: 500px;
+    font-size: 30px;
+    background-color: palegreen;
+}
+span.cat {
+    font-weight:bolder;
+    font-size: 30px;
+    margin-top: 220px;
+
+}
+.Dogs {
+    float: inline-end;
+    width: 500px;
+    height: 500px;
+    font-size: 30px;
+    background-color: red;
+
+}
+
+
+span.dog {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 220px;
+}
+footer {
+    clear: both;
+    text-align: center;
+    background-color: skyblue;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-top: 10px;
+}
+
+@media (max-width: 1024px) {
+    span {
+        text-align: center;
+    }
+}
